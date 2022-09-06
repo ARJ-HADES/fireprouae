@@ -12,10 +12,10 @@ body {
 }
 
 section {
-  min-height: 100vh;
+  min-height: inherit;
   display: flex;
   grid-template-columns: 100vw 100vw 100vw;
-  width: 300vw;
+  width: inherit;
   justify-content: center;
   align-items: center;
 }
