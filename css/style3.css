@@ -11,7 +11,7 @@ body {
   background-size: inherit;
 }
 
-main {
+section {
   min-height: 100vh;
   display: flex;
   grid-template-columns: 100vw 100vw 100vw;
