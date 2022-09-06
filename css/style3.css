@@ -8,8 +8,7 @@
 body {
   margin: 0;
   background-color: #eee;
-  background-image: url('https://source.unsplash.com/nGBbzS7Jj_0');
-  background-size: cover;
+  background-size: inherit;
 }
 
 main {
