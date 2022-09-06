@@ -27,7 +27,7 @@ figure {
   padding: 2em;
   border: 1px solid #ddd;
   box-shadow: 0 0 2em -0.5em #aaa;
-  position: relative;
+  position: fixed;
 }
 
 figure img {
@@ -43,7 +43,7 @@ figure figcaption {
   text-align: right;
   text-shadow: 0 0 1em #555;
   text-shadow: 0 0 0.5em white;
-  position: absolute;
+  position: fixed;
   right: -2rem;
   bottom: -2rem;
 }
