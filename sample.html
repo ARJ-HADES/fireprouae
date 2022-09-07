@@ -37,12 +37,107 @@
       <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
    </head>
    <body>
- 
+    <div class="row">
+        <div class="col-md-12">
+      
+          <div id="mdb-lightbox-ui"></div>
+      
+          <div class="mdb-lightbox no-margin">
+      
+            <figure class="col-md-4">
+              <a class="black-text" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(121).webp"
+                data-size="1600x1067">
+                <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(121).webp"
+                  class="img-fluid">
+                <h3 class="text-center my-3">Photo title</h3>
+              </a>
+            </figure>
+      
+            <figure class="col-md-4">
+              <a class="black-text" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(96).webp"
+                data-size="1600x1067">
+                <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(96).webp"
+                  class="img-fluid" />
+                <h3 class="text-center my-3">Photo title</h3>
+              </a>
+            </figure>
+      
+            <figure class="col-md-4">
+              <a class="black-text" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(104).webp"
+                data-size="1600x1067">
+                <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(104).webp"
+                  class="img-fluid" />
+                <h3 class="text-center my-3">Photo title</h3>
+              </a>
+            </figure>
+      
+            <figure class="col-md-4">
+              <a class="black-text" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(45).webp"
+                data-size="1600x1067">
+                <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(45).webp"
+                  class="img-fluid" />
+                <h3 class="text-center my-3">Photo title</h3>
+              </a>
+            </figure>
+      
+            <figure class="col-md-4">
+              <a class="black-text" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(122).webp"
+                data-size="1600x1067">
+                <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(122).webp"
+                  class="img-fluid" />
+                <h3 class="text-center my-3">Photo title</h3>
+              </a>
+            </figure>
+      
+            <figure class="col-md-4">
+              <a class="black-text" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(115).webp"
+                data-size="1600x1067">
+                <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(115).webp"
+                  class="img-fluid" />
+                <h3 class="text-center my-3">Photo title</h3>
+              </a>
+            </figure>
+      
+            <figure class="col-md-4">
+              <a class="black-text" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(125).webp"
+                data-size="1600x1067">
+                <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(125).webp"
+                  class="img-fluid" />
+                <h3 class="text-center my-3">Photo title</h3>
+              </a>
+            </figure>
+      
+            <figure class="col-md-4">
+              <a class="black-text" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(115).webp"
+                data-size="1600x1067">
+                <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(115).webp"
+                  class="img-fluid" />
+                <h3 class="text-center my-3">Photo title</h3>
+              </a>
+            </figure>
+      
+            <figure class="col-md-4">
+              <a class="black-text" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(119).webp"
+                data-size="1600x1067">
+                <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(119).webp"
+                  class="img-fluid" />
+                <h3 class="text-center my-3">Photo title</h3>
+              </a>
+            </figure>
+      
+          </div>
+      
+        </div>
+      </div>
       <!--js working-->
       <script src='js/jquery-2.2.3.min.js'></script>
       <!--//js working-->
       <!--Nav script scrollon--> 
       <script>
+        // MDB Lightbox Init
+$(function () {
+  $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+});
          $('.option').click(function(){
    $('.option').removeClass('active');
    $(this).addClass('active');
