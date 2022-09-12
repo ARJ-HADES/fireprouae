@@ -102,7 +102,7 @@ body {
   padding: 0.5rem 1rem;
   background-color: #fff;
   border-radius: 2rem;
-  border: 2px solid #3f51b5;
+  border: 2px solid #ff0000;
   color: #fff;
   font-size: 0.75rem;
   font-weight: 600;
@@ -155,13 +155,13 @@ body {
 .Card:hover .Card-button,
 .Card--active .Card-button {
   opacity: 1;
-  color: #3f51b5;
+  color: #fffb00;
   transform: translate(-50%, 0);
 }
 .Card:hover .Card-button:hover,
 .Card--active .Card-button:hover {
   color: #fff;
-  background-color: #3f51b5;
+  background-color: #fffb00;
 }
 .Card--active,
 .Card--active:hover {
